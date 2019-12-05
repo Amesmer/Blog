@@ -75,6 +75,6 @@ app.use((err,req,res,next)=>{
 })
 
 // 监听端口
-app.listen(80);
+app.listen(80,'0.0.0.0');
 console.log('web server init success');
 

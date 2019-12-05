@@ -31,5 +31,6 @@ admin.get('/article',require('./admin/article'))
 admin.get('/article-edit',require('./admin/article-edit'))
 //文章添加界面
 admin.post('/article-add',require('./admin/article-add'))
-
+//文章删除姐界面
+admin.get('/article-delete',require('./admin/article-delete'))
 module.exports=admin;
